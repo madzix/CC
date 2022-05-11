@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+    background-image: url('../images/brucemars.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.container{
+    margin: 0 auto;
+    height:100vh;
+    width:90vw;
+}
+main {
+    height: 70%;
+}
+main h1 {
+    padding: 8% 0 8% 0;
+    font-size: 69px;
+    font-family: 'Bebas Neue', cursive;
+}
+header{
+    height:20vh;
+    display: inline-flex;
+    align-items:center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+ul li {
+    display:inline;
+}
+.logo img {
+    height: 70px;
+    width: 70px;
+}
+nav {
+    width:70vw;
+    text-align: center;
+}
+nav li {
+    padding-right: 4%;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+button {
+    background-color: #000000; 
+    border: none;
+    color: #ffffff;
+    border-radius: 10px;
+    height:30px;
+    padding: 10px 30px 25px 30px;
+}
+footer {
+    height:10vh;
+    font-size: 20px;
+    width:100%;
+    background-color: RGBA(0,0,0,1);
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+   
+
+
+
+  
+
+
+  

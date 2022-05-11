@@ -1,0 +1,31 @@
+h1{
+
+    color: red;
+}
+
+p{
+    color: darkgreen;
+    background: orange;
+    border:2px solid red;
+}
+
+div p {
+    color:pink;
+}
+
+.paracolor p{
+    color: yellow;
+}
+
+.paracolor h1{
+    color: blue;
+}
+.paracolor .para2 {
+    color:green;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+}
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning</title>
+</head>
+<style>
+
+    body{
+        background-color:lightblue;
+        background-image: 
+        url(https://images.unsplash.com/photo-1605106702734-205df224ecce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGF0dGVybnN8ZW58MHx8MHx8&w=1000&q=80);
+    }
+
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .div1{
+        background-color: blue;
+        color: white;
+        padding: 2%;
+        position: relative;
+        left: 80px;
+    }
+    .div2{
+        background-color: red;
+        margin: 20px 0;
+        position: relative;
+        right: 80px;
+    }
+    .div3{
+        background-color: green;
+        position: sticky; 
+    }
+    
+
+</style>
+<body>
+    <div class="div1">This div has got a static position</div>
+    <div class="div2">This div has got a static position</div>
+    <div class="div3">This div has got a static position</div>
+    
+</body>
+</html>

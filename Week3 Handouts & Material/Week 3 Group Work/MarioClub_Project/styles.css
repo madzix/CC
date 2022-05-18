@@ -1,0 +1,121 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+header  {
+    background-color: red;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    height: 42px;
+}
+button {
+    border: 2px solid #FFF;
+    border-radius: 15px;
+    background: transparent;
+    margin: 10px 0;
+    color:#FFF;
+    font-weight: bold;
+}
+.banner {
+    display: flex;
+    background-image: url(img/banner.png);
+    width: 100%;
+    height: 55vh;
+    background-position: center;
+    background-size: cover;
+}
+.welcome {
+    padding-top: 10vh;
+}
+h1 {
+    color: #FFF;
+    background-color:rgb(255,165,0,0.4);
+    padding: 30px;
+    font-size: 3rem;
+}
+h1 span {
+    font-size: 2.3rem;
+}
+p {
+    font-size: 0.6rem;
+}
+.main-nav {
+    background-color: #f2f2f2;
+    position: sticky;
+    top: 42px;
+}
+.main-nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+.main-nav ul li {
+    list-style-type: none;
+}
+.main-nav ul li a {
+    text-decoration: none;
+    color:#333; 
+    font-size: 0.8em;
+}
+.main-nav ul li a:hover {
+    color:red;
+}
+article {
+    padding: 0 30px;
+}
+h2 {
+    color: red;
+}
+h6 {
+    margin-bottom: 0;
+}
+.images {
+   display: flex; 
+}
+.images li img {
+    width: 90%;
+    height: auto;
+}
+.images li {
+    list-style-type: none;
+}
+.join {
+    text-align: center;
+    background-color: #f2f2f2;
+}
+footer  {
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+input {
+    border-radius: 15px;
+    border: none;
+    background-color: white;
+    padding: 10px;
+}
+
+@media only screen and (max-width:650px) {
+    .main-nav ul li { 
+        text-align: center;
+    }
+    .main-nav ul {
+        display: block;
+    }
+    .images {
+        display: flex;
+        flex-direction: column; 
+     }
+     .banner {
+        display: flex;
+        background-image: url(img/banner.png);
+        width: 100%;
+        height: 55vh;
+        background-position: right;
+        background-size: cover;
+    }
+}
